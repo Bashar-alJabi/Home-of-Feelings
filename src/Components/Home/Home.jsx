@@ -63,7 +63,10 @@ export default function Home() {
 	// Check ResponsiveVoice support
 	useEffect(() => {
 		const checkVoiceSupport = () => {
-			if (window.responsiveVoice && window.responsiveVoice.voiceSupport()) {
+			if (
+				window.responsiveVoice &&
+				window.responsiveVoice.voiceSupport()
+			) {
 				window.responsiveVoice.init();
 				setIsResponsiveVoiceReady(true);
 			} else {
@@ -96,7 +99,6 @@ export default function Home() {
 				sound.stop();
 				setSound(null);
 			}
-
 			const emotion = emotionsData.emotions.find(
 				(e) => e.name.toLowerCase() === currentEmotion
 			);
@@ -112,9 +114,7 @@ export default function Home() {
 						playRandomSong(currentEmotion);
 					});
 				} else {
-					setTimeout(() => {
-						playRandomSong(currentEmotion);
-					}, 3000);
+					playRandomSong(currentEmotion);
 				}
 			}
 		} else {
@@ -210,14 +210,14 @@ export default function Home() {
 	// Initialize speech synthesis
 	const speak = (text, onSpeechEnd) => {
 		if (!isResponsiveVoiceReady) {
-			console.warn('ResponsiveVoice not ready yet');
+			console.warn("ResponsiveVoice not ready yet");
 			if (onSpeechEnd) onSpeechEnd();
 			return;
 		}
 
 		window.responsiveVoice.cancel();
 		setIsSpeaking(true);
-		
+
 		window.responsiveVoice.speak(text, selectedVoice, {
 			pitch: 1,
 			rate: 1,
@@ -304,7 +304,7 @@ export default function Home() {
 					whileHover={{ scale: 1.1 }}
 					whileTap={{ scale: 0.95 }}
 				>
-					<div className="relative">
+					<div className="relative z-10">
 						{/* Main thought bubble */}
 						<motion.div
 							className="bg-stone-100 rounded-full w-10 h-10 flex items-center justify-center shadow-lg"
@@ -451,10 +451,15 @@ export default function Home() {
 							whileHover={{ scale: 1.1 }}
 							whileTap={{ scale: 0.95 }}
 							onClick={() => {
-								if (currentEmotion === emotion.name.toLowerCase()) {
-									setUpdateCounter(prev => prev + 1);
+								if (
+									currentEmotion ===
+									emotion.name.toLowerCase()
+								) {
+									setUpdateCounter((prev) => prev + 1);
 								} else {
-									setCurrentEmotion(emotion.name.toLowerCase());
+									setCurrentEmotion(
+										emotion.name.toLowerCase()
+									);
 								}
 							}}
 						>
