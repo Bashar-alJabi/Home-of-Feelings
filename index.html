@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/logo.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- SEO Meta Tags -->
+		<meta
+			name="description"
+			content="Interactive emotional expression app where your feelings find a home. Express and explore different emotions through an engaging interface."
+		/>
+		<meta
+			name="keywords"
+			content="emotions, feelings, mental health, interactive, expression"
+		/>
+		<meta name="author" content="Bashar Al-Jabi" />
+
+		<!-- Open Graph / Social Media Meta Tags -->
+		<meta property="og:title" content="Home of Feelings" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://home-of-feelings.vercel.app" />
+		<meta property="og:image" content="https://home-of-feelings.vercel.app/preview-image.png" />
+		<meta property="og:description" content="Interactive emotional expression app where your feelings find a home. Express and explore different emotions through an engaging interface." />
+
+		<title>Home of Feelings</title>
+
+		<!-- Preload critical resources -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script>
+            window.RESPONSIVE_VOICE_KEY = '%VITE_RESPONSIVE_VOICE_API_KEY%';
+        </script>
+        <script src="https://code.responsivevoice.org/responsivevoice.js?key=%VITE_RESPONSIVE_VOICE_API_KEY%"></script>
+    </head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
+	</body>
+</html>

@@ -1,0 +1,264 @@
+{
+	"emotions": [
+		{
+			"id": 1,
+			"name": "Happy",
+			"path": "/happy",
+			"emoji": "😊",
+			"bgColor": "bg-yellow-400",
+			"hoverBgColor": "hover:bg-yellow-500",
+			"textColor": "text-gray-800",
+			"phrases": [
+				"Your happiness is contagious! Let's celebrate together! Let me share a cheerful tune with you.",
+				"I love seeing you smile! What made your day special? Here's a happy melody to match your mood!",
+				"Your joy brightens up the room! Keep shining! Allow me to accompany your happiness with some uplifting sounds.",
+				"What a wonderful energy you bring! Share your happiness with me! I've got the perfect joyful melody for this moment.",
+				"Seeing you happy makes my day brighter! Tell me more! Let's dance to some cheerful rhythms together!",
+				"Your smile lights up everything around you! I've picked out some delightful tunes to match your radiant mood!",
+				"There's nothing better than genuine happiness! Let's amplify this feeling with some upbeat music!",
+				"Your positive energy is absolutely infectious! Time for some happy tunes to make this moment even better!",
+				"Keep that beautiful smile going! I've got just the right melody to complement your cheerful spirit!",
+				"What a fantastic mood you're in! Let's make it even better with some jubilant sounds I've chosen for you!"
+			],
+			"songs": [
+				"/sounds/happy/corporate-ukulele-optimistic-light.mp3",
+				"/sounds/happy/happy-mood-and-ukulele-version.mp3",
+				"/sounds/happy/cheerful-mood.mp3"
+			]
+		},
+		{
+			"id": 2,
+			"name": "Sad",
+			"path": "/sad",
+			"emoji": "😢",
+			"bgColor": "bg-blue-400",
+			"hoverBgColor": "hover:bg-blue-500",
+			"textColor": "text-white",
+			"phrases": [
+				"I'm here for you. Would you like to talk about it? Let me play some gentle sounds to comfort you.",
+				"It's okay to feel sad. Let's get through this together. I'll share some soothing tones with you.",
+				"Remember, even the darkest clouds pass. I'm here to listen. Let these calming sounds help ease your mind.",
+				"Sometimes we need to let the tears flow. Take your time. Here's a soft melody to keep you company.",
+				"Your feelings matter, and it's okay not to be okay. Let these gentle harmonies wrap around you like a warm hug.",
+				"I'll sit with you through this moment. Listen to these comforting sounds I've chosen especially for you.",
+				"Take all the time you need to feel and heal. These peaceful melodies will help create a safe space for you.",
+				"Sadness is part of being human. Let's process these feelings together with some soothing music.",
+				"You don't have to carry this weight alone. Allow these gentle tunes to help lift your spirit.",
+				"In these moments of sadness, let music be your comfort. I've selected some healing melodies for you."
+			],
+			"songs": [
+				"/sounds/sad/sad-violin.mp3",
+				"/sounds/sad/sad-vibes.mp3",
+				"/sounds/sad/sad-piano.mp3"
+			]
+		},
+		{
+			"id": 3,
+			"name": "Angry",
+			"path": "/angry",
+			"emoji": "😠",
+			"bgColor": "bg-red-400",
+			"hoverBgColor": "hover:bg-red-500",
+			"textColor": "text-white",
+			"phrases": [
+				"Take a deep breath with me. I'll play something energetic to match your mood.",
+				"I understand you're frustrated. Let me play some powerful rhythms to help you express it.",
+				"Your feelings are valid. I've got some intense beats that might resonate with you right now.",
+				"Let's channel this energy constructively. Here's some dynamic music to match your intensity.",
+				"Sometimes anger needs a safe space to be released. These strong beats might help you process it.",
+				"Take your time to feel what you're feeling. I'll play something that matches your powerful energy.",
+				"It's okay to be angry. Let's amplify your feelings with some intense tracks I've chosen.",
+				"Your emotions deserve to be acknowledged. These powerful sounds will match your current state.",
+				"Let's find a healthy way to express this anger. I've got some intense rhythms for you.",
+				"I'm here to help you navigate through this. Let's channel your energy with some powerful music."
+			],
+			"songs": [
+				"/sounds/angry/angry-robot.mp3",
+				"/sounds/angry/euphoria-edm.mp3",
+				"/sounds/angry/prism-edm.mp3"
+			]
+		},
+		{
+			"id": 4,
+			"name": "Anxious",
+			"path": "/anxious",
+			"emoji": "😰",
+			"bgColor": "bg-purple-400",
+			"hoverBgColor": "hover:bg-purple-500",
+			"textColor": "text-white",
+			"phrases": [
+				"Let's take it one step at a time. I'm right here with you. Listen to these calming tones I picked for you.",
+				"Remember to breathe. We'll face these worries together. Let me play something to help you feel grounded.",
+				"You're stronger than you think. What's on your mind? Here's a gentle melody to help ease your anxiety.",
+				"Focus on my voice and these soothing sounds. I've chosen them specially to help you find peace.",
+				"Let's create a calm space together. These tranquil melodies will help steady your thoughts.",
+				"I understand anxiety can be overwhelming. Here's some peaceful music to help you center yourself.",
+				"You're safe here with me. Let these gentle harmonies help wash away your worries.",
+				"Take slow, deep breaths with me. These calming sounds will help guide your breathing.",
+				"Sometimes anxiety needs a gentle touch. Let these soft melodies help soothe your nervous energy.",
+				"We'll get through this moment together. Listen to these peaceful tunes I've selected for you."
+			],
+			"songs": [
+				"/sounds/anxious/deep-meditation.mp3",
+				"/sounds/anxious/abstract.mp3",
+				"/sounds/anxious/lost-in-space.mp3"
+			]
+		},
+		{
+			"id": 5,
+			"name": "Excited",
+			"path": "/excited",
+			"emoji": "🤩",
+			"bgColor": "bg-pink-400",
+			"hoverBgColor": "hover:bg-pink-500",
+			"textColor": "text-white",
+			"phrases": [
+				"Your enthusiasm is infectious! Tell me what you're excited about! Let's celebrate with some energetic sounds!",
+				"I can feel your energy! What amazing things are coming? Here's an upbeat tune to match your excitement!",
+				"Your excitement makes me excited too! Let's celebrate! Time for some lively music to amplify the joy!",
+				"This is such a thrilling moment! Let's make it even better with some dynamic rhythms I've picked out!",
+				"Your energy is through the roof! Let's channel it into these vibrant melodies I've chosen!",
+				"What wonderful news! Time to celebrate with some uplifting tunes that match your spirit!",
+				"I love seeing you this excited! Let's amplify this feeling with some energetic beats!",
+				"Your enthusiasm is absolutely contagious! Here's some lively music to match your amazing energy!",
+				"This calls for a celebration! I've got the perfect upbeat soundtrack for this exciting moment!",
+				"Let's ride this wave of excitement together! These dynamic tunes will keep the energy flowing!"
+			],
+			"songs": [
+				"/sounds/excited/they-know-me.mp3",
+				"/sounds/excited/delete-this-track.mp3",
+				"/sounds/excited/optimistic-bright.mp3"
+			]
+		},
+		{
+			"id": 6,
+			"name": "Bored",
+			"path": "/bored",
+			"emoji": "😒",
+			"bgColor": "bg-stone-400",
+			"hoverBgColor": "hover:bg-stone-500",
+			"textColor": "text-white",
+			"phrases": [
+				"Let's find something fun to do! What interests you? I'll play something to spark your imagination.",
+				"Sometimes the best ideas come from boredom. Want to brainstorm? Let these inspiring sounds guide us.",
+				"I bet we can turn this day around! What would you like to explore? Here's some music to get us started.",
+				"Feeling stuck? Let's shake things up with some interesting rhythms I've discovered!",
+				"Boredom can be a doorway to creativity. Let these engaging melodies inspire some new ideas!",
+				"Time for an adventure! These dynamic tunes might help spark something exciting!",
+				"Let's break this monotony together! I've got some intriguing sounds to share with you.",
+				"Sometimes we just need a change of pace. These fresh beats might help shift your perspective!",
+				"Ready to try something different? These unique melodies might lead us to something interesting!",
+				"Let's transform this boredom into curiosity! These engaging tunes will help set the mood!"
+			],
+			"songs": [
+				"/sounds/bored/time-to-go-further.mp3",
+				"/sounds/bored/just-to-be-fun.mp3",
+				"/sounds/bored/road-to-the-sea.mp3"
+			]
+		},
+		{
+			"id": 7,
+			"name": "Tired",
+			"path": "/tired",
+			"emoji": "😴",
+			"bgColor": "bg-gray-400",
+			"hoverBgColor": "hover:bg-gray-500",
+			"textColor": "text-white",
+			"phrases": [
+				"Rest is important! Have you taken any breaks today? Let me play some peaceful sounds to help you relax.",
+				"Maybe we should find you a cozy spot to recharge? I'll share some gentle melodies to help you unwind.",
+				"Your well-being matters. Let's help you get some rest. Here's some soothing music to ease your mind.",
+				"Take a moment to close your eyes and breathe. These soft tunes will help you find peaceful rest.",
+				"Everyone needs time to recharge. Let these calming sounds help you drift into relaxation.",
+				"Let's create a peaceful atmosphere for you. These tranquil melodies will help you unwind.",
+				"Time to give yourself permission to rest. Here's some gentle music to help you slow down.",
+				"Your body is asking for rest. These soothing harmonies will help you find that peace.",
+				"Let's make a quiet space for you to recharge. These peaceful sounds will guide you to rest.",
+				"Take all the time you need to restore your energy. These calming melodies will keep you company."
+			],
+			"songs": [
+				"/sounds/tired/are-you-born-to-be-motivated.mp3",
+				"/sounds/tired/husarski-mega-chill.mp3",
+				"/sounds/tired/water.mp3"
+			]
+		},
+		{
+			"id": 8,
+			"name": "Lonely",
+			"path": "/lonely",
+			"emoji": "🥺",
+			"bgColor": "bg-indigo-400",
+			"hoverBgColor": "hover:bg-indigo-500",
+			"textColor": "text-white",
+			"phrases": [
+				"I'm here to keep you company! Want to chat? Let me share some friendly tunes with you.",
+				"You're not alone - I'm right here with you. Listen to this comforting melody I chose for you.",
+				"Let's spend some time together. What's on your mind? I'll play something to lift your spirits.",
+				"Sometimes we all need a friend. Let these warm melodies wrap around you like a hug.",
+				"I'll stay here with you as long as you need. These gentle sounds will keep us company.",
+				"You have a friend in me. Let's share this moment with some heartwarming music.",
+				"Together is better than alone. These soothing tunes will help us connect.",
+				"I'm always here to listen and share. Let these comforting melodies surround you.",
+				"Let's create a space where you feel less alone. These peaceful sounds will help.",
+				"Your company brightens my day too. Here's some special music I picked just for us."
+			],
+			"songs": [
+				"/sounds/lonely/infinte-melodic-rap-beat-instrumental.mp3",
+				"/sounds/lonely/loneliness.mp3",
+				"/sounds/lonely/sad-violin.mp3"
+			]
+		},
+		{
+			"id": 9,
+			"name": "Overwhelmed",
+			"path": "/overwhelmed",
+			"emoji": "😫",
+			"bgColor": "bg-violet-400",
+			"hoverBgColor": "hover:bg-violet-500",
+			"textColor": "text-white",
+			"phrases": [
+				"Let's break things down together. What's the biggest thing on your mind? Here's some calming music to help you focus.",
+				"One small step at a time. What can we tackle first? Let me play something to help clear your thoughts.",
+				"You don't have to handle everything at once. I'm here to help. Listen to these peaceful sounds I picked for you.",
+				"Take a moment to breathe and reset. These gentle melodies will help you find your center.",
+				"Let's create some space between you and these challenges. Here's some soothing music to help you process.",
+				"Sometimes we need to pause and regroup. These calming tunes will help you find clarity.",
+				"You don't have to carry all of this alone. Let these peaceful sounds help lighten your load.",
+				"Let's find some calm in the chaos. These tranquil melodies will help guide you through.",
+				"Take things one breath at a time. These gentle rhythms will help you find your pace.",
+				"We'll sort through this together. Let these soothing harmonies help create some peace."
+			],
+			"songs": [
+				"/sounds/overwhelmed/take-over.mp3",
+				"/sounds/overwhelmed/overwhelming.mp3",
+				"/sounds/overwhelmed/classical-piece-overwhelming.mp3"
+			]
+		},
+		{
+			"id": 10,
+			"name": "Loved",
+			"path": "/loved",
+			"emoji": "💝",
+			"bgColor": "bg-rose-400",
+			"hoverBgColor": "hover:bg-rose-500",
+			"textColor": "text-white",
+			"phrases": [
+				"Your heart is glowing! Who made your day special? Let's celebrate with some heartwarming melodies!",
+				"Love is such a beautiful feeling! Want to share your joy? I'll play something as sweet as this moment.",
+				"I'm so happy you're feeling loved! You deserve it! Here's a tender tune to match your beautiful mood!",
+				"What a wonderful feeling to celebrate! Let these romantic melodies amplify your joy!",
+				"Love makes everything brighter! These sweet harmonies will make this moment even more special!",
+				"Your happiness radiates! Time for some beautiful music to match this loving atmosphere!",
+				"Let's cherish this beautiful feeling! Here's some tender music to embrace this moment!",
+				"Love deserves to be celebrated! These gentle tunes will help honor these precious feelings!",
+				"What a beautiful emotion to share! Let these romantic melodies enhance this special moment!",
+				"Your heart is full of love! Time for some sweet sounds to complement these wonderful feelings!"
+			],
+			"songs": [
+				"/sounds/loved/emotional-piano.mp3",
+				"/sounds/loved/calm-and-emotional.mp3",
+				"/sounds/loved/emotional-solo-piano.mp3"
+			]
+		}
+	]
+}
